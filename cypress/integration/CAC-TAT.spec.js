@@ -147,7 +147,6 @@ describe ('Central de Atendimento ao Cliente TAT', function () {
             })
     })
 
-
     it ('seleciona arquivo simulando grag-and-drop', function(){
         cy.get('input[type="file"]')
             .should('not.have.value')
